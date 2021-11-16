@@ -107,3 +107,37 @@ img {
     padding: 20px;
   }
 }
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .row {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+  }
+
+  #lezioni .row>.left, #lezioni .row>.right, #steps .row>.left, #steps .row>.central, #steps .row>.right, #why .row>.first, #why .row>.second, #why .row>.third {
+    float: left;
+    margin: 15px 0;
+  }
+
+  body, #why {
+    background-color: #F2F2CD;
+  }
+
+  img {
+    height: 100px;
+  }
+
+  #why .row img {
+    height: 100px;
+    padding: 20px;
+  }
+}
